@@ -1,21 +1,27 @@
 ## Demo Svelte
 
-Svelte développer app avec légèreté.
+Svelte, develop with lightness.
 
-## Lancer la démo
+## Start Demo
   
 ```sh
 $ npm i
 $ npm run dev
 ```
 
-## Progression
+## Sections
 
-Modifier le src dans index.html
+Change src in index.html
 
-- src1 - Création de composant avec attribut
-- src2 - Attribut bidirectionnel, composant container
-- src3 - Événement de composant
-- src4 - Animations + machine à etat réactive
-- src5 - Ajout d'un store
+- src01 - Dynamic content
+- src02 - Component + Dynamic attributes
+- src03 - src attributes
+- src04 - Bidirectional attribute
+- src05 - Component with bidirectional attribute
+- src06 - Component event
+- src07 - Logic Blocks
+- src08 - Loop Blocks
+- src09 - Lifecycle functions
+- src10 - Reactive statements
+- src11 - stores
 

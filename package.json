@@ -6,10 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "init" : "eslint --init"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "eslint": "^8.44.0",
     "svelte": "^3.59.2",
     "vite": "^3.0.2"
   },
