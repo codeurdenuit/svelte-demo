@@ -14,8 +14,8 @@ $ npm run dev
 Change src in index.html
 
 - src01 - Dynamic content
-- src02 - Component + Dynamic attributes
-- src03 - src attributes
+- src02 - Component
+- src03 - Dynamic attributes
 - src04 - Bidirectional attribute
 - src05 - Component with bidirectional attribute
 - src06 - Component event
