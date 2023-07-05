@@ -3,8 +3,8 @@
 </script>
 
 {#if chara}
-  <card>
-    <img src="i{chara.id}.jpg"/>
-    <h1>{chara.name}</h1>
-  </card>
+<card>
+  <img src={chara.src}/>
+  <h1>{chara.name}</h1>
+</card>
 {/if}

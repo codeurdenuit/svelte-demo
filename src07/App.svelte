@@ -9,7 +9,7 @@
   }
 </script>
 
-<Panel on:create={mgs} name="Auron" id="1" />
+<Panel on:create={mgs} name="Auron"/>
 {#if chara}
   <Card {chara}/>
 {/if}

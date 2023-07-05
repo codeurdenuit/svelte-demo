@@ -1,11 +1,11 @@
 <script>
   export let name
-  export let id
+  export let src = 'i1.jpg'
 </script>
 
 <panel>
-  <h1>{name} {id}</h1>
-  <img src="i{id}.jpg"/>
+  <h1>{name}</h1>
+  <img src={src}/>
   <input bind:value={name}/>
-  <input bind:value={id} type="number"/>
+  <input bind:value={src}/>
 </panel>

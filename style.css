@@ -41,6 +41,10 @@ h1 {
   line-height: 2rem;
 }
 
+body > h1 {
+  color: #ddd;
+}
+
 img {
   display: inline-block;
   position: absolute;

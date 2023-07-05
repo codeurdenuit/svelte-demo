@@ -16,7 +16,7 @@
 
 </script>
 
-<Panel on:create={mgs} name="Auron" id="1" />
+<Panel on:create={mgs} name="Auron"/>
 {#each charas as chara}
   <Card {chara}/>
 {/each}

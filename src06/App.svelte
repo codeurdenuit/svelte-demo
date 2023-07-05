@@ -3,7 +3,8 @@
 
   function mgs(e) {
     const char = e.detail
+    console.log(char)
   }
 </script>
 
-<Panel on:create={mgs} name="Auron" id="1" />
+<Panel on:create={mgs} name="Auron"/>

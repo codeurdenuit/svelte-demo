@@ -3,6 +3,6 @@
 </script>
 
 <card>
-  <img src="i{chara.id}.jpg"/>
+  <img src={chara.src}/>
   <h1>{chara.name}</h1>
 </card>

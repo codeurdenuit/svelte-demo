@@ -1,10 +1,10 @@
 <script>
   let name = 'Auron'
-  let id = 1
+  let src = 'i1.jpg'
 </script>
 
 <panel>
   <h1>{name}</h1>
-  <img src="i{id}.jpg"/>
+  <img src={src}/>
 </panel>
 

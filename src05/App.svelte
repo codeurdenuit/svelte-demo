@@ -4,4 +4,4 @@
 </script>
 
 <h1>{name}</h1>
-<Panel bind:name={name} id=1 />
+<Panel bind:name={name}/>

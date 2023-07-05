@@ -3,5 +3,5 @@
   import List from './List.svelte'
 </script>
 
-<Panel name="Auron" id=1 />
+<Panel name="Auron"/>
 <List />
