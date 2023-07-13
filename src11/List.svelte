@@ -2,15 +2,15 @@
   import { newcard } from './store'
   import Card from './Card.svelte'
 
-  let charas = [] 
+  let characters = [] 
 
 	newcard.subscribe((card) => {
-    charas = [...charas, card]
+    characters = [...characters, card]
 	})
 
 </script>
 
 
-{#each charas as chara}
-  <Card {chara}/>
+{#each characters as character}
+  <Card {character}/>
 {/each}

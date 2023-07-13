@@ -1,10 +1,8 @@
 <script>
-  export let chara
+  export let character
 </script>
 
-{#if chara}
 <card>
-  <img src={chara.src}/>
-  <h1>{chara.name}</h1>
+  <img src={character.src}/>
+  <h1>{character.name}</h1>
 </card>
-{/if}
